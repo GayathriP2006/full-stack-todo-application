@@ -9,7 +9,7 @@ app.use(cors());
 
 // Replace with your MongoDB Atlas connection string
 mongoose.connect(
-  "mongodb+srv://Gayu:Gayu2006%40@cluster0.fzzinc.mongodb.net/?appName=Cluster0")
+  "mongodb+srv://Gayu:<password>@cluster0.fzzinc.mongodb.net/?appName=Cluster0")
 .then(() => {
   console.log("MongoDB Connected");
 })
